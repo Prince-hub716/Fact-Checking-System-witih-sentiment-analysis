@@ -1,0 +1,177 @@
+{
+  "sources": [
+    {
+      "id": "who_001",
+      "title": "World Health Organization - Vaccine Safety",
+      "url": "https://www.who.int/news-room/feature-stories/detail/vaccine-safety-basics",
+      "credibility_score": 0.98,
+      "domain": "health",
+      "summary": "Official WHO guidance on vaccine safety, efficacy, and global vaccination programs.",
+      "last_updated": "2025-09-01",
+      "verification_claims": [
+        {
+          "claim": "Vaccines are safe and effective",
+          "status": "verified",
+          "confidence": 0.95,
+          "evidence": "Extensive clinical trials and post-market surveillance data"
+        },
+        {
+          "claim": "Vaccines cause autism",
+          "status": "false",
+          "confidence": 0.99,
+          "evidence": "Multiple large-scale studies have found no link between vaccines and autism"
+        }
+      ]
+    },
+    {
+      "id": "ipcc_001",
+      "title": "IPCC Climate Change Assessment",
+      "url": "https://www.ipcc.ch/assessment-report/ar6/",
+      "credibility_score": 0.99,
+      "domain": "climate",
+      "summary": "Comprehensive assessment of climate change science by leading international experts.",
+      "last_updated": "2025-08-15",
+      "verification_claims": [
+        {
+          "claim": "Human activities are the primary cause of recent climate change",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "Overwhelming scientific consensus based on multiple lines of evidence"
+        },
+        {
+          "claim": "Climate change is a natural cycle",
+          "status": "false",
+          "confidence": 0.95,
+          "evidence": "Current warming rate and pattern inconsistent with natural climate cycles"
+        }
+      ]
+    },
+    {
+      "id": "fcc_001",
+      "title": "FCC Wireless Technology Safety",
+      "url": "https://www.fcc.gov/consumers/guides/wireless-devices-and-health-concerns",
+      "credibility_score": 0.93,
+      "domain": "technology",
+      "summary": "Federal Communications Commission guidance on wireless technology safety standards.",
+      "last_updated": "2025-07-20",
+      "verification_claims": [
+        {
+          "claim": "5G networks are safe for human health",
+          "status": "verified",
+          "confidence": 0.92,
+          "evidence": "Radiofrequency emissions well below established safety limits"
+        },
+        {
+          "claim": "5G causes coronavirus or COVID-19",
+          "status": "false",
+          "confidence": 0.99,
+          "evidence": "No biological mechanism for radio waves to cause viral infections"
+        }
+      ]
+    },
+    {
+      "id": "nasa_001",
+      "title": "NASA Climate Change Evidence",
+      "url": "https://climate.nasa.gov/evidence/",
+      "credibility_score": 0.97,
+      "domain": "climate",
+      "summary": "NASA satellite data and research on climate change indicators and trends.",
+      "last_updated": "2025-09-10",
+      "verification_claims": [
+        {
+          "claim": "Global temperatures are rising",
+          "status": "verified",
+          "confidence": 0.99,
+          "evidence": "Satellite and surface temperature measurements show consistent warming trend"
+        },
+        {
+          "claim": "Antarctic ice is increasing",
+          "status": "false",
+          "confidence": 0.94,
+          "evidence": "Overall Antarctic ice mass is decreasing despite some regional variations"
+        }
+      ]
+    },
+    {
+      "id": "cdc_001",
+      "title": "CDC Health Information",
+      "url": "https://www.cdc.gov/",
+      "credibility_score": 0.96,
+      "domain": "health",
+      "summary": "Centers for Disease Control and Prevention health guidance and research.",
+      "last_updated": "2025-09-15",
+      "verification_claims": [
+        {
+          "claim": "Masks help prevent disease transmission",
+          "status": "verified",
+          "confidence": 0.93,
+          "evidence": "Multiple studies demonstrate effectiveness of masks in reducing respiratory droplets"
+        },
+        {
+          "claim": "Hand sanitizer is more effective than soap",
+          "status": "false",
+          "confidence": 0.87,
+          "evidence": "Soap and water are generally more effective than hand sanitizer for most pathogens"
+        }
+      ]
+    },
+    {
+      "id": "reuters_001",
+      "title": "Reuters Fact Check Database",
+      "url": "https://www.reuters.com/fact-check/",
+      "credibility_score": 0.88,
+      "domain": "general",
+      "summary": "Professional journalism fact-checking service covering various topics.",
+      "last_updated": "2025-09-20",
+      "verification_claims": [
+        {
+          "claim": "Drinking bleach cures COVID-19",
+          "status": "false",
+          "confidence": 0.99,
+          "evidence": "Bleach is toxic and dangerous to consume; no medical evidence supports this claim"
+        },
+        {
+          "claim": "Vitamin D supplementation prevents COVID-19",
+          "status": "uncertain",
+          "confidence": 0.65,
+          "evidence": "Some studies suggest correlation but causation not established"
+        }
+      ]
+    },
+    {
+      "id": "snopes_001",
+      "title": "Snopes Fact-Checking",
+      "url": "https://www.snopes.com/",
+      "credibility_score": 0.85,
+      "domain": "general",
+      "summary": "Independent fact-checking organization covering rumors, urban legends, and misinformation.",
+      "last_updated": "2025-09-22",
+      "verification_claims": [
+        {
+          "claim": "Eating carrots improves night vision",
+          "status": "uncertain",
+          "confidence": 0.70,
+          "evidence": "Vitamin A helps eye health but won't give superhuman night vision; WWII propaganda origin"
+        },
+        {
+          "claim": "Lightning never strikes the same place twice",
+          "status": "false",
+          "confidence": 0.95,
+          "evidence": "Lightning frequently strikes the same locations, especially tall structures"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-09-25",
+    "total_sources": 7,
+    "domains_covered": ["health", "climate", "technology", "general"],
+    "average_credibility": 0.94,
+    "verification_criteria": {
+      "verified": "Supported by strong scientific evidence and expert consensus",
+      "false": "Contradicted by reliable evidence and expert analysis",
+      "uncertain": "Insufficient evidence for definitive conclusion",
+      "unverified": "No relevant evidence found or analysis incomplete"
+    }
+  }
+}
